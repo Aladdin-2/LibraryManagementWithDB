@@ -18,7 +18,7 @@ public class DBConnection {
             throw new RuntimeException(e);
         }
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/project.jdbc", "root", "2605Aa");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/yourProjectName", "yourConnectionName", "yourPassword");
             System.out.println("Connection to database success!");
         } catch (SQLException e) {
             throw new RuntimeException(e);
